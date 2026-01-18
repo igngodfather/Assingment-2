@@ -1,0 +1,38 @@
+/* ---Font Family--- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+/* ---Navbar--- */
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    color: white;
+}
+.menu-list{
+    display: flex;
+    gap: 32px;
+    color: white;
+    
+}
+.menu-list li{
+    list-style: none;
+}
+
+/* ---Button--- */
+.main-button{
+    border: 1px solid ;
+    border-radius: 45px;
+    padding: 16px 12px;
+    gap: 4px;
+    width: 135px;
+    color: white;
+    border: none;
+}

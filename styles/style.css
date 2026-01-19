@@ -47,12 +47,18 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 760px;
+    /* width: 1600ppx; */
+    position: relative;
 }
 .hero-images{
     display: flex;
+    background-image: url(../assets/hero-circle.png);
     justify-content: center;
     align-items: center;
-    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
 .hero-document{
     text-align: center;

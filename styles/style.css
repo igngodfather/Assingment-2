@@ -25,8 +25,11 @@
 .menu-list{
     display: flex;
     gap: 32px;
-    color: white;
-    
+    color: white;  
+}
+.hamburger-icon{
+    display: none;
+    width: 30px;
 }
 .menu-list li{
     list-style: none;
@@ -385,8 +388,8 @@
 }
 
 .footer-sponsor{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
     align-items: center;
     gap: 30px;
     flex-wrap: wrap;
@@ -410,4 +413,89 @@
     color: rgba(255, 255, 255, 0.6);
     font-size: 0.9rem;
     margin-top: 20px;
+}
+
+
+
+
+
+/* ---Responsive for Mobile Device 576px--- */
+@media screen and (max-width: 576px) {
+    body, html{
+        overflow-x: hidden;
+    }
+    .navbar{
+        justify-content: space-between;
+        padding: 15px 20px;
+        width: 100%;
+
+    }
+    .menu, 
+    .button{
+        display: none;
+    }
+     
+    .hamburger-icon{
+        display: block;
+        width: 28px;
+        height: auto;
+    }
+    .hero-text h1{
+        font-size: 2.6rem;
+    }
+    .hero-text p{
+        font-size: x-large;
+    }
+    .hero-container{
+        width: 100%;
+        min-height: auto;
+        background-size: cover;
+        background-position: center top;
+    }
+    .hero-images {
+        width: 280px;
+        height: 280px;
+        background-size: contain;
+        margin: 0 auto;
+        
+    }
+
+    .rating-card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 80px;
+    }
+    .card-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .premium-audio{
+        padding: 30px;
+    }
+    .feature-card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .host-card{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .host-social{
+        justify-content: center;
+    }
+    .footer-sponsor{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;        
+    }
+    .footer {
+        padding: 50px 20px; 
+        background-image: url(../assets/footer-bg.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;       
+    }
+    
 }

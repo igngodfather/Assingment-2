@@ -485,7 +485,12 @@
         display: flex;
         flex-direction: column;
         text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
         
+    }
+    .host-name{
+        padding-bottom: 20px;
     }
     .host-social{
         justify-content: center;

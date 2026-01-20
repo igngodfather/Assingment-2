@@ -204,9 +204,11 @@
 }
 .rating-card h1{
     color: #00FF88;
+    font-size: 3rem;
 }
 .rating-card p{
     color: white;
+    padding-top: 20px;
 }
 
 /* ---Why Choose Section--- */

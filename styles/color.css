@@ -6,6 +6,6 @@
     background-color: #230E3D;
 }
 .gr-color{
-    background: #833AB4;
-background: linear-gradient(189deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 53%, rgba(252, 176, 69, 1) 100%);
+    color: white;
+    background: linear-gradient(to right, #FF0080, #7928CA);
 }

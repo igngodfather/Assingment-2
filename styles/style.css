@@ -479,9 +479,21 @@
     .card-grid{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        margin-left: 20px;
+        margin-right: 20px;
     }
-    .premium-audio{
+    .premium-audio, .rich-resources{
         padding: 30px;
+    }
+    .premium-audio,
+    .mobile-friendly, 
+    .global-community, 
+    .exclusive-interviews, 
+    .rich-resources {
+        grid-column: auto;
+        grid-row: auto;
+        width: 100%;    
+        margin-bottom: 0; 
     }
     .feature-card{
         display: grid;
